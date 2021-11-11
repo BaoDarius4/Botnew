@@ -12,9 +12,9 @@ const client = new Client({
   restTimeOffset: 0
 });
 
-client.login('OTA3NjE0MzYyODgwMDY5Njcy.YYpvvg.wslgObzhzLaew_-4lpmhdOnglF8')
+client.login('OTA4MTk0ODk0MDQ3MjI3OTk0.YYyMaA.SyY9CsiDWW6A5jInDrW0ugTpjuE')
 client.commands = new Collection();
-client.prefix = PREFIX;
+client.prefix = '!';
 client.queue = new Map();
 const cooldowns = new Collection();
 const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
